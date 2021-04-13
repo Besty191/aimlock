@@ -36,33 +36,6 @@ local Name = Instance.new("TextLabel")
 Gui.Name = "Gui"
 Gui.Parent = plrs.LocalPlayer:WaitForChild("PlayerGui")
 
-Move.Name = "Move"
-Move.Parent = Gui
-Move.BackgroundColor3 = Color3.new(0.0431373, 1, 0.0745098)
-Move.BackgroundTransparency = 0.40000000596046
-Move.BorderSizePixel = 0
-Move.Position = UDim2.new(0.005, 0,0.018, 0)
-Move.Size = UDim2.new(0.28141585, 0, 0.0320388414, 0)
-
-Main.Name = "Main"
-Main.Parent = Move
-Main.BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
-Main.BackgroundTransparency = 0.69999998807907
-Main.Position = UDim2.new(0, 0, 0.995670795, 0)
-Main.Size = UDim2.new(1.0000006, 0, 9.79697132, 0)
-
-EspStatus.Name = "EspStatus"
-EspStatus.Parent = Main
-EspStatus.BackgroundColor3 = Color3.new(1, 1, 1)
-EspStatus.BackgroundTransparency = 1
-EspStatus.Size = UDim2.new(0.272955924, 0, 0.161862016, 0)
-EspStatus.Font = Enum.Font.ArialBold
-EspStatus.Text = "HACK BY MAZI "
-EspStatus.TextColor3 = Color3.new(0.0431373, 1, 0.0745098)
-EspStatus.TextScaled = true
-EspStatus.TextSize = 14
-EspStatus.TextWrapped = true
-
 st1.Name = "st1"
 st1.Parent = Main
 st1.BackgroundColor3 = Color3.new(1, 1, 1)
