@@ -36,62 +36,7 @@ local Name = Instance.new("TextLabel")
 Gui.Name = "Gui"
 Gui.Parent = plrs.LocalPlayer:WaitForChild("PlayerGui")
 
-st1.Name = "st1"
-st1.Parent = Main
-st1.BackgroundColor3 = Color3.new(1, 1, 1)
-st1.BackgroundTransparency = 1
-st1.Position = UDim2.new(0.271787882, 0, 0, 0)
-st1.Size = UDim2.new(0.728211343, 0, 0.161862016, 0)
-st1.Font = Enum.Font.ArialBold
-st1.Text = "Press "..aimkey.."Arsenal"
-st1.TextColor3 = Color3.new(0.0431373, 1, 0.0745098)
-st1.TextScaled = true
-st1.TextSize = 14
-st1.TextWrapped = true
 
-st1_2.Name = "st1"
-st1_2.Parent = Main
-st1_2.BackgroundColor3 = Color3.new(1, 1, 1)
-st1_2.BackgroundTransparency = 1
-st1_2.Position = UDim2.new(0, 0, 0.375590861, 0)
-st1_2.Size = UDim2.new(0.999999881, 0, 0.161862016, 0)
-st1_2.Font = Enum.Font.ArialBold
-st1_2.Text = ""
-st1_2.TextColor3 = Color3.new(0.0431373, 1, 0.0745098)
-st1_2.TextScaled = true
-st1_2.TextSize = 14
-st1_2.TextWrapped = true
-
-st1_3.Name = "st1"
-st1_3.Parent = Main
-st1_3.BackgroundColor3 = Color3.new(1, 1, 1)
-st1_3.BackgroundTransparency = 1
-st1_3.Position = UDim2.new(0, 0, 0.18558608, 0)
-st1_3.Size = UDim2.new(0.999999881, 0, 0.161862016, 0)
-st1_3.Font = Enum.Font.ArialBold
-st1_3.Text = ""
-st1_3.TextColor3 = Color3.new(0.0431373, 1, 0.0745098)
-st1_3.TextScaled = true
-st1_3.TextSize = 14
-st1_3.TextWrapped = true
-local teambasedstatus = st1_3:Clone()
-teambasedstatus.Parent = st1_3
-teambasedstatus.TextScaled = true
-teambasedstatus.Position = UDim2.new(0, 0,0.694, 0)
-teambasedstatus.Text = tostring(TeamBased)
-
-Name.Name = "Name"
-Name.Parent = Move
-Name.BackgroundColor3 = Color3.new(1, 1, 1)
-Name.BackgroundTransparency = 1
-Name.Size = UDim2.new(0.838, 0, 0.980000019, 0)
-Name.Font = Enum.Font.Arial
-Name.Text = "                          MAZI HUB"
-Name.TextColor3 = Color3.new(0, 0, 0)
-Name.TextScaled = true
-Name.TextSize = 14
-Name.TextWrapped = true
-Name.TextXAlignment = Enum.TextXAlignment.Left
 -- Scripts:
 
 
